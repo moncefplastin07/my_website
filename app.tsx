@@ -18,6 +18,7 @@ export default function App({ Page, pageProps }: { Page: ComponentType<any>, pag
                     sizes="16x16"
                     href="https://www.gravatar.com/avatar/ea52ed86c481ca2816b8403acdbc9169?size=16"
                 />
+                <meta name="viewport" content="width=device-width, initial-scale=1">
 
             </Head>
             <Page {...pageProps} />
