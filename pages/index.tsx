@@ -1,6 +1,7 @@
-import { Import, useDeno } from 'https://deno.land/x/aleph/mod.ts'
+import { Import, useDeno, Link } from 'https://deno.land/x/aleph/mod.ts'
 import React, { useState } from 'https://esm.sh/react'
 import MyGravatar from '../components/MyGravatar.tsx'
+import DisplayModeSwitcherButton from "../components/DisplayModeSwitcherButton.tsx";
 
 export default function Home() {
     const version = useDeno(() => {
@@ -8,8 +9,12 @@ export default function Home() {
     })
 
     return (
-        <div className="page">
+        <>
+            <DisplayModeSwitcherButton />
+            <div className="page">
+
             <Import from="../style/index.less" />
+            <Import from="../style/bootstrap.css" />
 
             <p className="myGravatar"><MyGravatar width="265" /></p>
             <h1><strong>Moncef Gaha</strong></h1>
@@ -22,8 +27,14 @@ export default function Home() {
                 <a href="https://facebook.com/moncefplastin07" target="_blank">Facebook</a>
                 <span>&middot;</span>
                 <a href="https://instagram.com/moncefplastin07" target="_blank">Instagram</a>
+                <span>&middot;</span>
+                <Link to="/blog">
+                    <a>Blog</a>
+                </Link>
             </p>
             <p className="copyinfo">Built by Aleph.js in Deno v{version.deno}</p>
         </div>
+        </>
+
     )
 }
