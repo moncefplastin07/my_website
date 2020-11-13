@@ -13,7 +13,6 @@ export default function Blog({ Page }: { Page: ComponentType & { meta: Metadata 
             <Head>
                 <title>{Page.meta.title}</title>
                 <Import from="../style/blog.less" />
-                <Import from="../components/markdown.css"></Import>
             </Head>
             <div className="container">
             <p className="links">
