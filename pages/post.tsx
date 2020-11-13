@@ -12,7 +12,6 @@ export default function Blog({ Page }: { Page: ComponentType & { meta: Metadata 
         <>
             <Head>
                 <title>{Page.meta.title}</title>
-                <Import from="../style/blog.less" />
             </Head>
             <div className="container">
             <p className="links">
