@@ -32,6 +32,11 @@ export default function Home() {
                     <a>Blog</a>
                 </Link>
             </p>
+            <br/>
+            <p>
+                <strong>Web backend developer from Algeria/Biskra</strong>
+            </p>
+            <br/>
             <p className="copyinfo">Built by Aleph.js in Deno v{version.deno}</p>
         </div>
         </>
