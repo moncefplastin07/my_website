@@ -34,9 +34,14 @@ export default function Home() {
             </p>
             <br/>
             <p>
-                <strong>Web backend developer from Algeria/Biskra</strong>
+                <strong>Web backend developer from Biskra/Algeria</strong>
             </p>
             <br/>
+            <p>
+                <strong>E-mail: <a href="mailto:moncefplastin07@gmail.com"></a></strong>
+            </p>
+            <br/>
+
             <p className="copyinfo">Built by Aleph.js in Deno v{version.deno}</p>
         </div>
         </>
