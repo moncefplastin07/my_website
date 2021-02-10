@@ -38,7 +38,7 @@ export default function Home() {
             </p>
             <br/>
             <p>
-                <strong>E-mail: <a href="mailto:moncefplastin07@gmail.com">moncefplastin07@gmail.com</a></strong>
+                <strong>E-mail: <a href="mailto:x@moncefgaha.me">x@moncefgaha.me</a></strong>
             </p>
             <br/>
 
