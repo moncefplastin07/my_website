@@ -28,7 +28,7 @@ export default function Home() {
                 <span>&middot;</span>
                 <a href="https://instagram.com/moncefplastin07" target="_blank">Instagram</a>
                 <span>&middot;</span>
-                <Link to="/blog">
+                <Link to="https://blog.moncefgaha.me">
                     <a>Blog</a>
                 </Link>
             </p>
